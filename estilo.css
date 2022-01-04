@@ -51,9 +51,12 @@ header .logo{
 }
 
 #navegacao-menu ul li a:hover,
-#navegacao-menu ul li a:active,
 #navegacao-menu ul li a.pagina-atual{
     background: rgb(211, 0, 60);
+}
+
+#navegacao-menu ul li a:active {
+    background: rgb(255, 0, 72);
 }
 
 main {
