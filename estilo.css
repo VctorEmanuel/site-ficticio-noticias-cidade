@@ -9,9 +9,9 @@ body {
 }
 
 #container {
-    /* border: 1px solid black; */
     width: 900px;
-    margin: 0 26.7em;
+    margin: 0 13em;
+    height: max-content;
 }
 
 header {
@@ -30,10 +30,11 @@ header .logo{
 }
 
 #navegacao-menu ul{
-    border: 4px solid rgb(77, 7, 28);
+    border: 3px solid rgb(77, 7, 28);
     width: auto;
     float: left;
     list-style: none;
+    margin: 7px 8px;
     clear: both;
 }
 
@@ -65,11 +66,12 @@ main {
 }
 
 #titulos {
-    width: 96%;
-    margin: 8px 3px;
+    width: auto;
+    margin: 7px 8px;
     padding-left: 4px;
     color: white;
     background: rgb(43, 74, 109);
+    border-radius: 2px;
 }
 
 main div#coluna-1 {
@@ -79,7 +81,10 @@ main div#coluna-1 {
 }
 
 #entrevistas {
-    width: 250px;
+    width: 248px;
+    margin: 20px 0;
+    margin-bottom: 1px;
+    padding-bottom: 8px;
     float: left;
     background-image: url(imagens/fundo-caixa.png);
 }
@@ -91,12 +96,13 @@ main div#coluna-1 {
 #navegacao-entrevistas ul a {
     float: left;
     text-decoration: none;
-    margin: 0 3px;
+    margin: 0 8px;
     padding: 15px;
-    width: 212px;
+    width: 204px;
     background: white;
     color: black;
     font-size: large;
+    border-radius: 2px;
 }
 
 #navegacao-entrevistas ul a:hover {
@@ -104,7 +110,8 @@ main div#coluna-1 {
 }
 
 #news {
-    width: 250px;
+    width: 248px;
+    margin: 20px 0;
     float: left;
     background-image: url(imagens/fundo-caixa.png);
 }
@@ -114,7 +121,7 @@ main div#coluna-1 {
 }
 
 #news #fundo-branco {
-    width: 212px;
+    width: 204px;
     padding: 15px;
     margin: 4px;
 }
@@ -130,9 +137,128 @@ main div#coluna-1 {
     width: 100px;
     height: 40px;
     font-size: large;
+    position: relative;
+    border: none;
+    top: 4px;
 }
 
 #news .botao:hover {
     background-color: rgb(211, 0, 60);
     cursor: pointer;
+}
+
+#coluna-2 {
+    width: 645px;
+    height: auto;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    float: left;
+}
+
+#postagens {
+    height: 374px;
+    width: 290px;
+    float: left;
+    margin: 10px 12px;
+    background-image: url(imagens/fundo-caixa.png);
+}
+
+#postagens:nth-child(1),
+#postagens:nth-child(2){
+    margin: 20px 12px;
+}
+
+#conteudo,
+#conteudo-menu {
+    background: white;
+    width: auto;
+    margin: 7px 8px;
+    padding-left: 4px;
+}
+
+#subtitulo {
+    width: max-content;
+    padding: 0 4px;
+    margin: 10px 0;
+    background-color: rgb(160, 0, 45);
+    color: #fff;
+}
+
+#conteudo img {
+    width: 98%;
+}
+
+#conteudo p{
+    font-size: 16px;
+}
+
+#conteudo a {
+    font-size: 16px;
+    color: rgb(160, 0, 45);
+}
+
+#conteudo a:hover {
+    color: rgb(27, 21, 23);
+}
+
+#conteudo a:active {
+    color: rgb(43, 74, 109);
+}
+
+#postagenzinha {
+    height: 80px;
+}
+
+#conteudo-menu img{
+    position: relative;
+    top: 4px;
+    width: 38%;
+    margin-top: 3px;
+    margin-left: 5px;
+    float: left;
+}
+
+#postagenzinha-texto {
+    padding-left: 4px;
+    float: left;
+    font-size: 12px;
+    width: 150px;
+}
+
+#postagenzinha-texto p{
+    font-size: 11px;
+    width: 150px;
+    letter-spacing: 0;
+    word-spacing: 1px;
+    font-weight: 900;
+    line-height: 14px;
+}
+
+#conteudo-menu hr {
+    margin-left: 1px;
+    width: 98%;
+}
+
+#conteudo-menu #postagenzinha-texto a {
+    font-size: 11px;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(30, 49, 71);
+}
+
+#conteudo-menu #postagenzinha-texto a:hover {
+    color: rgb(91, 121, 155);
+}
+
+#rodape {
+    clear: both;
+    height: 70px;
+    color: #fff;
+    background: rgb(43, 74, 109);
+}
+
+#rodape p {
+    padding-left: 220px;
+    padding-top: 25px;
 }
