@@ -163,7 +163,7 @@ main div#coluna-1 {
     font-size: large;
     position: relative;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     top: 4px;
 }
 
@@ -281,6 +281,7 @@ main div#coluna-1 {
     height: 70px;
     color: #fff;
     background: rgb(43, 74, 109);
+    width: 100%;
 }
 
 #rodape p {
